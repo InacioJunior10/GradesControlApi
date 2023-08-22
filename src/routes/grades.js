@@ -3,7 +3,7 @@ import { promises, readSync } from 'fs';
 
 const router = express.Router();
 const fs = promises;
-let pathFile = './src/assets/grades.json';
+let pathFile = './assets/grades.json';
 
 router.post('/', async (req, res) => {
     try {
